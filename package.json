@@ -1,0 +1,9 @@
+{
+  "name": "scss-media-queries",
+  "version": "1.0.0",
+  "description": "A set of media queries for scss",
+  "repository": "https://github.com/Corjen/atom-media-queries.git",
+  "engines": {
+    "atom": ">=1.0 <2.0.0"
+  }
+}
