@@ -1,6 +1,7 @@
 {
   "name": "scss-media-queries",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "A set of media queries for scss",
   "repository": "https://github.com/Corjen/atom-media-queries.git",
   "engines": {
