@@ -2,72 +2,72 @@
   'Small up':
     'prefix': 'sm-up'
     'body': """
-      \#\{$small-up} {
+      @media \#\{$small-up} {
         $1
       }"""
   'Small only':
     'prefix': 'sm-only'
     'body': """
-      \#\{$small-only} {
+      @media \#\{$small-only} {
         $1
       }"""
   'Medium up':
     'prefix': 'med-up'
     'body': """
-      \#\{$medium-up} {
+      @media \#\{$medium-up} {
         $1
       }"""
   'Medium only':
     'prefix': 'med-only'
     'body': """
-      \#\{$medium-only} {
+      @media \#\{$medium-only} {
         $1
       }"""
   'Large up':
     'prefix': 'large-up'
     'body': """
-      \#\{$large-up} {
+      @media \#\{$large-up} {
         $1
       }"""
   'Large only':
     'prefix': 'large-only'
     'body': """
-      \#\{$large-only} {
+      @media \#\{$large-only} {
         $1
       }"""
   'X-Large up':
     'prefix': 'xlarge-up'
     'body': """
-      \#\{$xlarge-up} {
+      @media \#\{$xlarge-up} {
         $1
       }"""
   'X-Large only':
     'prefix': 'xlarge-only'
     'body': """
-      \#\{$xlarge-only} {
+      @media \#\{$xlarge-only} {
         $1
       }"""
   'XX-Large up':
     'prefix': 'xxlarge-up'
     'body': """
-      \#\{$xxlarge-up} {
+      @media \#\{$xxlarge-up} {
         $1
       }"""
   'XX-Large only':
     'prefix': 'xxlarge-only'
     'body': """
-      \#\{$xlarge-only} {
+      @media \#\{$xlarge-only} {
         $1
       }"""
   'Landscape':
     'prefix': 'landscape'
     'body': """
-      \#\{$landscape} {
+      @media \#\{$landscape} {
         $1
       }"""
   'Portrait':
     'prefix': 'portrait'
     'body': """
-      \#\{$portrait} {
+      @media \#\{$portrait} {
         $1
       }"""
