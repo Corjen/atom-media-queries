@@ -46,16 +46,16 @@ $xxlarge-only: '#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 This package will install these snippets:
 
 ```
-sm-up > #{$small-up} {}
-sm-only > #{$small-only} {}
-med-up > #{$medium-up} {}
-med-only > #{$medium-only} {}
-large-up > #{$large-up} {}
-large-only > #{$large-only} {}
-xlarge-up > #{$xlarge-up} {}
-xlarge-only > #{$xlarge-only} {}
-xxlarge-up > #{$xxlarge-up} {}
-xxlarge-only > #{$xxlarge-only} {}
-portrait > #{$portrait} {}
-landscape > #{$landscape} {}
+sm-up > @media #{$small-up} {}
+sm-only > @media #{$small-only} {}
+med-up > @media #{$medium-up} {}
+med-only > @media #{$medium-only} {}
+large-up > @media #{$large-up} {}
+large-only > @media #{$large-only} {}
+xlarge-up > @media #{$xlarge-up} {}
+xlarge-only > @media #{$xlarge-only} {}
+xxlarge-up > @media #{$xxlarge-up} {}
+xxlarge-only > @media #{$xxlarge-only} {}
+portrait > @media #{$portrait} {}
+landscape > @media #{$landscape} {}
 ```
