@@ -17,10 +17,15 @@ This small package installs a couple of snippets that I use often in my scss fil
   @return nth($range, 2);
 }
 
+@function em-calc($px-value, $rem-base: 16) {
+  $value: $px-value / $rem-base;
+  @return $value * 1em;
+}
+
 $small-range: (0, em-calc(640)); /* between 0 & 640px */
 $medium-range: (em-calc(641), em-calc(1000)); /* between 640px & 1000px */
-$large-range: (em-calc(1001), em-calc(1024)); /* between 1001px & 1024px */
-$xlarge-range: (em-calc(1025), em-calc(1920)); /* between 1025px & 1920px */
+$large-range: (em-calc(1001), em-calc(1025)); /* between 1001px & 1025px */
+$xlarge-range: (em-calc(1026), em-calc(1920)); /* between 1026px & 1920px */
 $xxlarge-range: (em-calc(1921), 99999999px); /* between 1920px & infinity */
 
 $screen: 'only screen';
